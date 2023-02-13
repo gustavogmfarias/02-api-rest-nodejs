@@ -7,7 +7,8 @@
     "dev": "tsx watch src/server.ts",
     "lint": "eslint src --ext .ts --fix",
     "knex2": "node --no-warnings --loader tsx ./node_modules/.bin/knex",
-    "knex": "node --no-warnings  --loader tsx ./node_modules/knex/bin/cli.js"
+    "knex": "node --no-warnings  --loader tsx ./node_modules/knex/bin/cli.js",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +19,8 @@
     "@types/node": "^18.11.19",
     "eslint": "^8.33.0",
     "tsx": "^3.12.3",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "vitest": "^0.28.5"
   },
   "dependencies": {
     "@fastify/cookie": "^8.3.0",
